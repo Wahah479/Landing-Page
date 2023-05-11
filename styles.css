@@ -77,3 +77,42 @@ button {
     text-align: center;
     line-height: 200px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 32px;
+}
+
+.items-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 5px #3882F6 solid;
+    border-radius: 16px;
+}
+
+.img-subtext {
+    color: #7e7e7e;
+    font-size: 18px;
+    text-align: center;
+    margin: 12px 0px;
+}
