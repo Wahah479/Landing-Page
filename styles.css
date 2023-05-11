@@ -136,3 +136,28 @@ button {
     font-weight: bold;
     font-size: 18px;
 }
+
+.action {
+    display: flex;
+    margin: 100px;
+    width: 700px;
+    height: 100px;
+    justify-content: space-around;
+    /*padding: 100px, 20px;*/
+    background-color: #3882F6;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.main-text-action, .subtext-action {
+    color: white;
+}
+
+.main-text-action {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button-action {
+    border: 2px white solid;
+}
