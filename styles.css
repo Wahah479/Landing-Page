@@ -116,3 +116,23 @@ button {
     text-align: center;
     margin: 12px 0px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+}
+
+.text-quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author-quote {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
